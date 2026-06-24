@@ -3,8 +3,8 @@
 I'm a systems-focused software engineer and modder specializing in C-family languages, high-performance architectures, and deep backend optimization. I build tools and game modifications designed to eliminate overhead, maximize thread efficiency, and ensure systems run smoothly under extreme loads.
 
 ### 🛠️ The Stack
-* **Languages:** C#, C++, C, SQL
-* **Infrastructure & DBs:** SQLite, Cloudflare Tunnels, Local-First Architectures
+* **Languages:** C#, C++, C, Java, JavaScript
+* **Infrastructure & DBs:** SQLite, Cloudflare Tunnels, Local-First Architectures, Sql Server
 * **Specialties:** State-driven memory profiling, custom API design, cache invalidation architecture, and Harmony patching.
 
 ---
