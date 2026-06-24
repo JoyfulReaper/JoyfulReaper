@@ -18,3 +18,7 @@ I'm a systems-focused software engineer and modder specializing in C-family lang
 
 ### ⚡ The Philosophy
 > "If someone has to fork my repo, configure their own network plumbing, and pay out-of-pocket to host it just to avoid paying a subscription... they've earned it. Keep it open, keep it fast."
+
+---
+
+🌐 [Portfolio & Web Experiments](https://www.kgivler.com) | 🎮 [Steam Community Profile](https://steamcommunity.com/id/Mister_God/)
