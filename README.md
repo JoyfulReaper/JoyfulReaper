@@ -5,14 +5,14 @@ I'm a systems-focused software engineer and modder specializing in C-family lang
 ### 🛠️ The Stack
 * **Languages:** C#, C++, C, Java, JavaScript
 * **Infrastructure & DBs:** SQLite, Cloudflare Tunnels, Local-First Architectures, Sql Server
-* **Specialties:** State-driven memory profiling, custom API design, cache invalidation architecture, and Harmony patching.
+* **Specialties:** ASP.NET Core, .NET Core, .NET Framework, State-driven memory profiling, custom API design, cache invalidation architecture, and Harmony patching.
 
 ---
 
 ### 📦 Featured Projects
 
 * **[RandomSteamGame](https://github.com/JoyfulReaper/RandomSteamGame)** — A high-performance Steam library discovery utility. Re-engineered from the ground up to utilize a local SQLite stack and Cloudflare Tunnels to entirely bypass external API rate limits.
-* **RimWorld - Replace Stuff Performance Edition** — A complete architectural overhaul of structure replacement mechanics. Replaced leaky event-driven tracking with an $O(1)$ Least Recently Used (LRU) sliding window cache backed by `System.WeakReference<Thing>` to guarantee a zero-leak memory footprint.
+* **RimWorld - Replace Stuff Performance Edition** — A complete architectural overhaul of structure replacement mechanics. Replaced leaky event-driven tracking with an O(1) Least Recently Used (LRU) sliding window cache backed by `System.WeakReference<Thing>` to guarantee a zero-leak memory footprint.
 
 ---
 
