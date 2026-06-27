@@ -1,6 +1,8 @@
 # Hi, I'm Kyle (aka JoyfulReaper)
 
-I'm a systems-focused software engineer and modder specializing in C-family languages, high-performance architectures, and deep backend optimization. I build tools and game modifications designed to eliminate overhead, maximize thread efficiency, and ensure systems run smoothly under extreme loads.
+I'm a systems-focused software engineer and modder specializing in C-family languages, high-performance architectures, and deep backend optimization. I build tools and game modifications designed to eliminate overhead, maximize thread efficiency, and ensure systems run smoothly under extreme loads. 
+
+I’m especially interested in using software development to support meaningful projects, open-source work, and community-driven tools. I’m open to volunteering my skills for aligned causes.
 
 ### 🛠️ The Stack
 * **Languages:** C#, C++, C, Java, JavaScript
