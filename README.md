@@ -7,7 +7,7 @@ I’m especially interested in using software development to support meaningful 
 ### 🛠️ The Stack
 * **Languages:** C#, C++, C, Java, JavaScript
 * **Infrastructure & DBs:** SQLite, Cloudflare Tunnels, Local-First Architectures, Sql Server
-* **Specialties:** ASP.NET Core, .NET Core, .NET Framework, State-driven memory profiling, custom API design, cache invalidation architecture, and Harmony patching.
+* **Specialties:** ASP.NET Core, .NET Core, .NET Framework, State-driven memory profiling, custom API design, and Harmony patching.
 
 ---
 
