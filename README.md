@@ -1,26 +1,69 @@
-# Hi, I'm Kyle (aka JoyfulReaper)
+# Hi, I'm Kyle Givler
 
-I'm a systems-focused software engineer and modder specializing in C-family languages, high-performance architectures, and deep backend optimization. I build tools and game modifications designed to eliminate overhead, maximize thread efficiency, and ensure systems run smoothly under extreme loads. 
+I'm a .NET developer, code archaeologist, and modder who likes turning messy systems into useful tools.
 
-I’m especially interested in using software development to support meaningful projects, open-source work, and community-driven tools. I’m open to volunteering my skills for aligned causes.
+Most of my work lives somewhere around backend development, local-first utilities, SQLite-backed services, Blazor apps, command-line tooling, and RimWorld modding. I like practical software: fast enough to feel good, simple enough to run cheaply, and maintainable enough that future-me does not curse present-me too badly.
 
-### 🛠️ The Stack
-* **Languages:** C#, C++, C, Java, JavaScript
-* **Infrastructure & DBs:** SQLite, Cloudflare Tunnels, Local-First Architectures, Sql Server
-* **Specialties:** ASP.NET Core, .NET Core, .NET Framework, State-driven memory profiling, custom API design, and Harmony patching.
+I’m especially interested in open-source work, community tools, and volunteering development time for aligned causes.
+
+## What I Build
+
+* **Backend and web tools** with C#, ASP.NET Core, Blazor, SQLite, and small self-hosted infrastructure
+* **Developer utilities** for local automation, scripting, command packs, and workflow experiments
+* **RimWorld mods** focused on performance, UI clarity, and maintainability
+* **Reusable .NET libraries** for boring-but-useful plumbing like caching, SQLite setup, and web stats
+
+## Featured Projects
+
+### [RandomSteamGame](https://github.com/JoyfulReaper/RandomSteamGame)
+
+A fast Blazor/.NET Steam library picker for people with too many games and not enough decision-making energy.
+
+It uses the Steam Web API and Store API, server-side SQLite-backed caching, cookie-backed local preferences, and a live site at:
+
+**https://randomsteam.kgivler.com**
+
+### [ReaperShell](https://github.com/JoyfulReaper/ReaperShell)
+
+An experimental .NET 10 interactive shell for building local developer tools as live-loadable command packs.
+
+Command packs are normal SDK-style .NET projects and can be written in C#, F#, or VB.NET. The goal is not to replace PowerShell or Bash; it is a playground for turning quick scripts into structured local tools.
+
+### [JoyfulReaperLib](https://github.com/JoyfulReaper/JoyfulReaperLib)
+
+A small collection of reusable .NET helpers and optional SQLite-backed packages.
+
+Current packages include a lightweight base library, SQLite provider initialization helpers, SQLite-backed distributed caching, and SQLite-backed web stats/hit counting.
+
+### [kgivler_com](https://github.com/JoyfulReaper/kgivler_com)
+
+Source for my personal website and portfolio hub:
+
+**https://www.kgivler.com**
+
+It doubles as a place for small web experiments, project links, API work, and the occasional terminal-flavored nonsense.
+
+### [Better Trade Colors](https://github.com/JoyfulReaper/BetterTradeColors)
+
+A RimWorld UI mod that color-codes trade items by quality, durability, and condition.
+
+The goal is simple: make large trade screens easier to read without adding unnecessary UI overhead.
+
+### [Replace Stuff: Performance Edition](https://github.com/JoyfulReaper/RimWorld-ReplaceStuff)
+
+A performance-focused continuation and modernization of Replace Stuff for RimWorld.
+
+This is still early work, but the direction is clear: cleaner architecture, better replacement behavior, more reliable state transfer, and improved maintainability for current RimWorld versions.
+
+## Core Stack
+
+* **Languages:** C#, C++, C, JavaScript, Java, F#, VB.NET
+* **Frameworks:** .NET, ASP.NET Core, Blazor, Harmony
+* **Data / infra:** SQLite, SQL Server, Cloudflare Tunnel, local-first architecture
+* **Interests:** backend systems, refactoring, debugging, command-line tools, game modding, open source
 
 ---
 
-### 📦 Featured Projects
-
-* **[RandomSteamGame](https://randomsteam.kgivler.com)** — A high-performance Steam library discovery utility. Re-engineered from the ground up to utilize a local SQLite stack and Cloudflare Tunnels to entirely bypass external API rate limits.
-* **RimWorld - Replace Stuff Performance Edition** — A complete architectural overhaul of structure replacement mechanics. Replaced leaky event-driven tracking with an O(1) Least Recently Used (LRU) sliding window cache backed by `System.WeakReference<Thing>` to guarantee a zero-leak memory footprint.
-
----
-
-### ⚡ The Philosophy
-> "If someone has to fork my repo, configure their own network plumbing, and pay out-of-pocket to host it just to avoid paying a subscription... they've earned it. Keep it open, keep it fast."
-
----
-
-🌐 [Portfolio & Web Experiments](https://www.kgivler.com) | 🎮 [Steam Community Profile](https://steamcommunity.com/id/Mister_God/)
+🌐 [Portfolio](https://www.kgivler.com)
+🎮 [Steam](https://steamcommunity.com/id/Mister_God/)
+💼 [LinkedIn](https://www.linkedin.com/in/kyle-givler)
