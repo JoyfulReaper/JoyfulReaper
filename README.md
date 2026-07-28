@@ -57,7 +57,7 @@ This is still early work, but the direction is clear: cleaner architecture, bett
 
 ## Core Stack
 
-* **Languages:** C#, C++, C, JavaScript, Java, F#, VB.NET
+* **Languages:** C#, C++, C, JavaScript, Java, VB.NET
 * **Frameworks:** .NET, ASP.NET Core, Blazor, Harmony
 * **Data / infra:** SQLite, SQL Server, Cloudflare Tunnel, local-first architecture
 * **Interests:** backend systems, refactoring, debugging, command-line tools, game modding, open source
