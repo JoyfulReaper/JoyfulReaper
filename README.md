@@ -1,69 +1,86 @@
 # Hi, I'm Kyle Givler
 
-I'm a .NET developer, code archaeologist, and modder who likes turning messy systems into useful tools.
+I'm a .NET developer, code archaeologist, and software tinkerer who likes turning messy systems into useful tools.
 
-Most of my work lives somewhere around backend development, local-first utilities, SQLite-backed services, Blazor apps, command-line tooling, and RimWorld modding. I like practical software: fast enough to feel good, simple enough to run cheaply, and maintainable enough that future-me does not curse present-me too badly.
+Most of my work lives around backend development, small web applications, APIs, SQLite-backed services, self-hosted infrastructure, command-line tooling, networking experiments, and the occasional game mod.
 
-I’m especially interested in open-source work, community tools, and volunteering development time for aligned causes.
+I like practical software: fast enough to feel good, simple enough to run cheaply, and maintainable enough that future-me does not curse present-me too badly.
 
-## What I Build
+**I'm available for small paid development projects, debugging, automation, deployment help, and unusual technical problems.**
 
-* **Backend and web tools** with C#, ASP.NET Core, Blazor, SQLite, and small self-hosted infrastructure
-* **Developer utilities** for local automation, scripting, command packs, and workflow experiments
-* **RimWorld mods** focused on performance, UI clarity, and maintainability
-* **Reusable .NET libraries** for boring-but-useful plumbing like caching, SQLite setup, and web stats
+## What I Can Help With
+
+- **.NET and backend development** — C#, ASP.NET Core, APIs, Blazor, SQLite, integrations, and small internal tools
+- **Websites and web applications** — simple sites, landing pages, custom functionality, cleanup, and modernization
+- **Debugging and project rescue** — figuring out why something is broken, untangling existing code, and getting stalled projects moving again
+- **Automation and utilities** — scripts, API integrations, webhooks, scheduled jobs, and repetitive-task automation
+- **Deployment and self-hosting** — Docker/Compose, Linux VPSes, nginx, HTTPS, monitoring, and small-service infrastructure
+- **Programming help** — code review, mentoring, architectural guidance, and getting unstuck
+
+I also enjoy open-source and community work and am open to selected nonprofit or volunteer projects when the fit makes sense.
 
 ## Featured Projects
+
+### [Mission Control](https://github.com/JoyfulReaper/MissionControl)
+
+A .NET 10 operations system for integration-event history and live infrastructure visibility.
+
+It combines ASP.NET Core, Blazor, NATS JetStream, SQLite, host agents, Docker/service monitoring, GitHub event processing, and a shared dashboard/mobile UI.
+
+This is probably the best example of how I approach larger systems: keep the pieces understandable, make failure visible, and avoid complexity that does not solve a real problem.
 
 ### [RandomSteamGame](https://github.com/JoyfulReaper/RandomSteamGame)
 
 A fast Blazor/.NET Steam library picker for people with too many games and not enough decision-making energy.
 
-It uses the Steam Web API and Store API, server-side SQLite-backed caching, cookie-backed local preferences, and a live site at:
+It uses Steam APIs, server-side caching, SQLite-backed data, rate limiting, telemetry, and a public deployment at:
 
 **https://randomsteam.kgivler.com**
 
 ### [ReaperShell](https://github.com/JoyfulReaper/ReaperShell)
 
-An experimental .NET 10 interactive shell for building local developer tools as live-loadable command packs.
+An experimental .NET interactive shell for building local developer tools as live-loadable command packs.
 
-Command packs are normal SDK-style .NET projects and can be written in C#, F#, or VB.NET. The goal is not to replace PowerShell or Bash; it is a playground for turning quick scripts into structured local tools.
+Command packs are normal SDK-style .NET projects and can be written in C#, F#, or VB.NET. It is less an attempt to replace Bash or PowerShell and more a playground for turning quick scripts into structured tools.
 
-### [JoyfulReaperLib](https://github.com/JoyfulReaper/JoyfulReaperLib)
+### [freebsd-c-lab](https://github.com/JoyfulReaper/freebsd-c-lab)
 
-A small collection of reusable .NET helpers and optional SQLite-backed packages.
+A collection of C and POSIX/BSD programming experiments written while learning C directly against operating-system APIs.
 
-Current packages include a lightweight base library, SQLite provider initialization helpers, SQLite-backed distributed caching, and SQLite-backed web stats/hit counting.
+The main attraction is **tcpnoise**, a small network-noise monitor that listens on public TCP ports and records the scanners, bots, probes, and miscellaneous Internet garbage that inevitably arrive.
 
-### [kgivler_com](https://github.com/JoyfulReaper/kgivler_com)
+### [kgivler.com](https://github.com/JoyfulReaper/kgivler_com)
 
-Source for my personal website and portfolio hub:
+Source for my personal website, portfolio, API playground, and collection of small web/infrastructure experiments.
 
 **https://www.kgivler.com**
 
-It doubles as a place for small web experiments, project links, API work, and the occasional terminal-flavored nonsense.
+It includes project integrations, service/status data, telemetry, networking experiments, and the occasional terminal-flavored nonsense.
 
-### [Better Trade Colors](https://github.com/JoyfulReaper/BetterTradeColors)
+### RimWorld Modding
 
-A RimWorld UI mod that color-codes trade items by quality, durability, and condition.
+I also maintain and experiment with RimWorld mods, including:
 
-The goal is simple: make large trade screens easier to read without adding unnecessary UI overhead.
+- [Better Trade Colors](https://github.com/JoyfulReaper/BetterTradeColors) — improves trade-screen readability with quality, durability, and condition coloring
+- [Replace Stuff: Performance Edition](https://github.com/JoyfulReaper/RimWorld-ReplaceStuff) — a performance-focused modernization and refactor of Replace Stuff
 
-### [Replace Stuff: Performance Edition](https://github.com/JoyfulReaper/RimWorld-ReplaceStuff)
+## Currently Building
 
-A performance-focused continuation and modernization of Replace Stuff for RimWorld.
+### [HappyPortal](https://github.com/JoyfulReaper/HappyPortal)
 
-This is still early work, but the direction is clear: cleaner architecture, better replacement behavior, more reliable state transfer, and improved maintainability for current RimWorld versions.
+An early-stage ASP.NET Core client and billing portal intended both for my own development/hosting work and as an example of the kind of custom small-business software I can build.
+
+The project is currently in planning/pre-MVP development.
 
 ## Core Stack
 
-* **Languages:** C#, C++, C, JavaScript, Java, VB.NET
-* **Frameworks:** .NET, ASP.NET Core, Blazor, Harmony
-* **Data / infra:** SQLite, SQL Server, Cloudflare Tunnel, local-first architecture
-* **Interests:** backend systems, refactoring, debugging, command-line tools, game modding, open source
+- **Primary:** C#, .NET, ASP.NET Core, Blazor, SQLite
+- **Infrastructure:** Docker / Compose, Linux, nginx, Cloudflare Tunnel, WireGuard, self-hosted services
+- **Also working with:** C, JavaScript, SQL Server, POSIX/BSD APIs
+- **Things I enjoy:** backend systems, debugging, refactoring, networking, automation, command-line tools, game modding, and weird Internet infrastructure
 
 ---
 
-🌐 [Portfolio](https://www.kgivler.com)
+🌐 [Portfolio](https://www.kgivler.com)  
+💼 [LinkedIn](https://www.linkedin.com/in/kyle-givler)  
 🎮 [Steam](https://steamcommunity.com/id/Mister_God/)
-💼 [LinkedIn](https://www.linkedin.com/in/kyle-givler)
