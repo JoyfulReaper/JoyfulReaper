@@ -99,6 +99,33 @@ I also maintain and experiment with RimWorld mods, including:
 - [Better Trade Colors](https://github.com/JoyfulReaper/BetterTradeColors) — improves trade-screen readability with quality, durability, and condition coloring
 - [Replace Stuff: Performance Edition](https://github.com/JoyfulReaper/RimWorld-ReplaceStuff) — a performance-focused modernization and refactor of Replace Stuff
 
+## Networking & Infrastructure Lab
+
+I also run a small multi-POP hobby network and use it as a hands-on lab for routing, IPv6, Linux networking, and service operations.
+
+### DN42 — AS4242420425
+
+I operate **AS4242420425** on DN42 across multiple VPS locations.
+
+That environment includes:
+
+- BGP routing with BIRD
+- multiple external peers and geographically separate edge nodes
+- IPv4 and IPv6 routing
+- WireGuard-based inter-router links
+- controlled transit policies and policy routing
+- authoritative DNS and internal service naming
+- HTTPS services and certificate automation
+- traffic monitoring, routing diagnostics, and failure testing
+
+The public landing/service code lives in [DN42Landing](https://github.com/JoyfulReaper/DN42Landing).
+
+### Yggdrasil
+
+I also run services over **Yggdrasil**, an IPv6 overlay network, and use it to experiment with overlay routing, service discovery, self-hosting, and reducing accidental dependence on the normal Internet.
+
+A lot of this work is intentionally experimental, but it has been a very good way to learn what actually happens below the application layer when routing, DNS, IPv6, and service availability stop being somebody else's problem.
+
 ## Currently Building
 
 ### [HappyPortal](https://github.com/JoyfulReaper/HappyPortal)
