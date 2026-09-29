@@ -10,14 +10,49 @@ I like practical software: fast enough to feel good, simple enough to run cheapl
 
 ## What I Can Help With
 
-- **.NET and backend development** — C#, ASP.NET Core, APIs, Blazor, SQLite, integrations, and small internal tools
-- **Websites and web applications** — simple sites, landing pages, custom functionality, cleanup, and modernization
-- **Debugging and project rescue** — figuring out why something is broken, untangling existing code, and getting stalled projects moving again
-- **Automation and utilities** — scripts, API integrations, webhooks, scheduled jobs, and repetitive-task automation
-- **Deployment and self-hosting** — Docker/Compose, Linux VPSes, nginx, HTTPS, monitoring, and small-service infrastructure
-- **Programming help** — code review, mentoring, architectural guidance, and getting unstuck
+- **.NET and backend development** — C#, ASP.NET Core, APIs, Blazor, SQLite, integrations, and internal tools
+- **Legacy .NET modernization** — moving older .NET Framework, MVC, Web Forms, and VB.NET applications toward modern .NET / ASP.NET Core without throwing away working business logic
+- **Websites and small web applications** — landing pages, business sites, custom functionality, modernization, and cleanup
+- **Debugging and project rescue** — figuring out why something is broken, untangling unfamiliar code, fixing stalled projects, and making existing systems maintainable
+- **Automation and integrations** — scripts, scheduled jobs, webhooks, APIs, data processing, and replacing repetitive manual work
+- **Deployment and self-hosting** — Docker/Compose, Linux VPSes, nginx, HTTPS, monitoring, backups, and small-service infrastructure
+- **Programming help** — code review, architectural guidance, mentoring, and getting unstuck
 
-I also enjoy open-source and community work and am open to selected nonprofit or volunteer projects when the fit makes sense.
+I especially like **small or weird projects that are too specialized for a big agency but still need someone who can handle both the code and the system it runs on**.
+
+I'm also open to selected nonprofit, community, and volunteer work when the fit makes sense.
+
+## Professional Experience
+
+Before focusing primarily on my own projects, I worked professionally on business applications, legacy-system modernization, integrations, and internal tooling.
+
+### Pennsylvania Automotive Association
+
+As a .NET developer, I maintained existing .NET and VB.NET applications while also replacing older systems with modern C# applications.
+
+Some of that work included:
+
+- **Modernizing legacy .NET applications** — maintained an ASP.NET MVC payment application on .NET Framework 4.7.2, replaced its PayPal integration with PayTrace, and later rewrote the application in **.NET 6**
+- **Auction platform** — built an ASP.NET MVC fundraising auction application with configurable auctions, bidding rules, user accounts, administrator bidding, themes, and PayTrace payment processing
+- **Internal business applications** — built or replaced systems for event registration, help-desk tickets, hardware asset tracking, bond tracking, secure power-of-attorney reporting, and employee alerts
+- **Admin portal** — built a modular .NET application that consolidated smaller internal tools using Razor Class Libraries
+- **Grants workflow** — added electronic application and approval workflows to existing internal and external applications, replacing paper-heavy processes
+- **Integrations and reporting** — worked with SQL Server, SSRS, Lansweeper, Lucene.NET, WMI, Exchange-related workflows, Twilio, and payment providers
+
+A lot of that work was less about greenfield development and more about understanding existing business processes, preserving the parts that worked, and replacing the parts that had become painful to maintain.
+
+### Foot Locker
+
+Earlier, I worked on Xstore point-of-sale modernization using Java.
+
+That included:
+
+- replacing older SOAP integrations with JSON/REST APIs;
+- integrating OpenAPI Generator into the Ant build process to generate internal API client libraries;
+- helping upgrade Xstore environments while preserving and merging custom configuration;
+- earlier operational/project work supporting store openings, hardware deployment, POS systems, and high-priority technical incidents.
+
+That mix of development and operational work is part of why I tend to think about software as something that has to survive contact with actual users and infrastructure.
 
 ## Featured Projects
 
