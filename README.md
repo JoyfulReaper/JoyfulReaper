@@ -22,38 +22,6 @@ I especially like **small or weird projects that are too specialized for a big a
 
 I'm also open to selected nonprofit, community, and volunteer work when the fit makes sense.
 
-## Professional Experience
-
-Before focusing primarily on my own projects, I worked professionally on business applications, legacy-system modernization, integrations, and internal tooling.
-
-### Pennsylvania Automotive Association
-
-As a .NET developer, I maintained existing .NET and VB.NET applications while also replacing older systems with modern C# applications.
-
-Some of that work included:
-
-- **Modernizing legacy .NET applications** — maintained an ASP.NET MVC payment application on .NET Framework 4.7.2, replaced its PayPal integration with PayTrace, and later rewrote the application in **.NET 6**
-- **Auction platform** — built an ASP.NET MVC fundraising auction application with configurable auctions, bidding rules, user accounts, administrator bidding, themes, and PayTrace payment processing
-- **Internal business applications** — built or replaced systems for event registration, help-desk tickets, hardware asset tracking, bond tracking, secure power-of-attorney reporting, and employee alerts
-- **Admin portal** — built a modular .NET application that consolidated smaller internal tools using Razor Class Libraries
-- **Grants workflow** — added electronic application and approval workflows to existing internal and external applications, replacing paper-heavy processes
-- **Integrations and reporting** — worked with SQL Server, SSRS, Lansweeper, Lucene.NET, WMI, Exchange-related workflows, Twilio, and payment providers
-
-A lot of that work was less about greenfield development and more about understanding existing business processes, preserving the parts that worked, and replacing the parts that had become painful to maintain.
-
-### Foot Locker
-
-Earlier, I worked on Xstore point-of-sale modernization using Java.
-
-That included:
-
-- replacing older SOAP integrations with JSON/REST APIs;
-- integrating OpenAPI Generator into the Ant build process to generate internal API client libraries;
-- helping upgrade Xstore environments while preserving and merging custom configuration;
-- earlier operational/project work supporting store openings, hardware deployment, POS systems, and high-priority technical incidents.
-
-That mix of development and operational work is part of why I tend to think about software as something that has to survive contact with actual users and infrastructure.
-
 ## Featured Projects
 
 ### [Mission Control](https://github.com/JoyfulReaper/MissionControl)
@@ -99,6 +67,38 @@ I also maintain and experiment with RimWorld mods, including:
 - [Better Trade Colors](https://github.com/JoyfulReaper/BetterTradeColors) — improves trade-screen readability with quality, durability, and condition coloring
 - [Replace Stuff: Performance Edition](https://github.com/JoyfulReaper/RimWorld-ReplaceStuff) — a performance-focused modernization and refactor of Replace Stuff
 
+## Professional Experience
+
+Before focusing primarily on my own projects, I worked professionally on business applications, legacy-system modernization, integrations, and internal tooling.
+
+### Pennsylvania Automotive Association
+
+As a .NET developer, I maintained existing .NET and VB.NET applications while also replacing older systems with modern C# applications.
+
+Some of that work included:
+
+- **Modernizing legacy .NET applications** — maintained an ASP.NET MVC payment application on .NET Framework 4.7.2, replaced its PayPal integration with PayTrace, and later rewrote the application in **.NET 6**
+- **Auction platform** — built an ASP.NET MVC fundraising auction application with configurable auctions, bidding rules, user accounts, administrator bidding, themes, and PayTrace payment processing
+- **Internal business applications** — built or replaced systems for event registration, help-desk tickets, hardware asset tracking, bond tracking, secure power-of-attorney reporting, and employee alerts
+- **Admin portal** — built a modular .NET application that consolidated smaller internal tools using Razor Class Libraries
+- **Grants workflow** — added electronic application and approval workflows to existing internal and external applications, replacing paper-heavy processes
+- **Integrations and reporting** — worked with SQL Server, SSRS, Lansweeper, Lucene.NET, WMI, Exchange-related workflows, Twilio, and payment providers
+
+A lot of that work was less about greenfield development and more about understanding existing business processes, preserving the parts that worked, and replacing the parts that had become painful to maintain.
+
+### Foot Locker
+
+Earlier, I worked on Xstore point-of-sale modernization using Java.
+
+That included:
+
+- replacing older SOAP integrations with JSON/REST APIs;
+- integrating OpenAPI Generator into the Ant build process to generate internal API client libraries;
+- helping upgrade Xstore environments while preserving and merging custom configuration;
+- earlier operational/project work supporting store openings, hardware deployment, POS systems, and high-priority technical incidents.
+
+That mix of development and operational work is part of why I tend to think about software as something that has to survive contact with actual users and infrastructure.
+
 ## Networking & Infrastructure Lab
 
 I also run a small multi-POP hobby network and use it as a hands-on lab for routing, IPv6, Linux networking, and service operations.
@@ -143,6 +143,6 @@ The project is currently in planning/pre-MVP development.
 
 ---
 
-🌐 [Portfolio](https://www.kgivler.com)  
+🌐 [Portfolio](https://kgivler.com)  
 💼 [LinkedIn](https://www.linkedin.com/in/kyle-givler)  
 🎮 [Steam](https://steamcommunity.com/id/Mister_God/)
