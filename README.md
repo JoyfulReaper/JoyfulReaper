@@ -126,6 +126,22 @@ I also run services over **Yggdrasil**, an IPv6 overlay network, and use it to e
 
 A lot of this work is intentionally experimental, but it has been a very good way to learn what actually happens below the application layer when routing, DNS, IPv6, and service availability stop being somebody else's problem.
 
+## Hosting I Use
+
+A good chunk of the public infrastructure behind the projects above runs on
+[GreenCloud VPS](https://greencloudvps.com/billing/aff.php?aff=10295).
+
+I currently use GreenCloud for **Clanker** and **ScopeCreep**, two Linux VPS nodes
+that host applications, Docker services, monitoring, routing experiments, DN42
+infrastructure, and assorted other projects.
+
+They've worked well for the kind of small Linux VPS workloads I run, and their
+pricing has made it practical to keep multiple public nodes online without
+spending much on infrastructure.
+
+**Affiliate disclosure:** The GreenCloud link above is an affiliate link. I may
+earn a commission if you sign up through it.
+
 ## Currently Building
 
 ### [HappyPortal](https://github.com/JoyfulReaper/HappyPortal)
