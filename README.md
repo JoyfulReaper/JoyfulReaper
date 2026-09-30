@@ -105,7 +105,8 @@ I also run a small multi-POP hobby network and use it as a hands-on lab for rout
 
 ### DN42 — AS4242420425
 
-I operate **AS4242420425** on DN42 across multiple VPS locations.
+I operate **AS4242420425** on DN42 across multiple VPS locations, including
+GreenCloud-hosted nodes.
 
 That environment includes:
 
