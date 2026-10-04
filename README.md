@@ -8,6 +8,8 @@ I like practical software: fast enough to feel good, simple enough to run cheapl
 
 **I'm available for small paid development projects, debugging, automation, deployment help, and unusual technical problems.**
 
+**Development services:** https://dev.kgivler.com
+
 ## What I Can Help With
 
 - **.NET and backend development** — C#, ASP.NET Core, APIs, Blazor, SQLite, integrations, and internal tools
@@ -160,6 +162,7 @@ The project is currently in planning/pre-MVP development.
 
 ---
 
-🌐 [Portfolio](https://kgivler.com)  
+🛠️ [Development Services](https://dev.kgivler.com)  
+🌐 [Personal Site](https://kgivler.com)  
 💼 [LinkedIn](https://www.linkedin.com/in/kyle-givler)  
 🎮 [Steam](https://steamcommunity.com/id/Mister_God/)
