@@ -52,7 +52,7 @@ Command packs are normal SDK-style .NET projects and can be written in C#, F#, o
 
 A collection of C and POSIX/BSD programming experiments written while learning C directly against operating-system APIs.
 
-The main attraction is **tcpnoise**, a small network-noise monitor that listens on public TCP ports and records the scanners, bots, probes, and miscellaneous Internet garbage that inevitably arrive.
+One experiment, **tcpnoise**, grew large enough to graduate into its own repository: https://github.com/JoyfulReaper/tcpnoise
 
 ### [kgivler.com](https://github.com/JoyfulReaper/kgivler_com)
 
